@@ -1,0 +1,9 @@
+﻿Comments:
+  CommentToPostOne:
+    CommentId: 1
+    PostId: 1
+    Content: "Hahhaha"
+  Comment2ToPostOne:
+    CommentId: 2
+    PostId: 1
+    Content: "Nothing to laugh"

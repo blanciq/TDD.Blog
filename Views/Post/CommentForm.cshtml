@@ -1,0 +1,13 @@
+﻿@model TDD.Blog.ViewModel.CommentViewModel
+
+@using (Ajax.BeginForm("AddComment", "Post", 
+    new AjaxOptions
+        {
+            HttpMethod = "POST", 
+            UpdateTargetId = "comments", 
+            LoadingElementId = "comment-add-loader"
+        }))
+{
+    @Html.EditorForModel(Model)
+    <button type="submit">Save</button><span id="comment-add-loader" class="hidden"><img src="@Url.Content("~/Content/images/ajax-loader.gif")" alt="loading"/></span>
+}

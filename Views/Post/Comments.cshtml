@@ -1,0 +1,8 @@
+﻿@model TDD.Blog.ViewModel.CommentsViewModel
+
+<ul>
+@foreach (var comment in Model.Comments)
+{
+    <li><span class="comment-author">@comment.Author</span><p class="comment-content">@comment.Content</p></li> 
+}
+</ul>

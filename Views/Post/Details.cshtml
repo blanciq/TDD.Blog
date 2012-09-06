@@ -1,0 +1,18 @@
+﻿@using TDD.Blog.Controllers
+@using TDD.Blog.ViewModel
+@model TDD.Blog.ViewModel.PostViewModel
+
+@{
+    ViewBag.Title = @Model.Title;
+}
+
+<h1>@Model.Title</h1>
+<p>Lorem ipsum</p>
+
+<div id="comments">
+    @Html.Action("Comments", "Post", new { postId = Model.Id})
+</div>
+
+<div class="add-comment">
+    @Html.Partial("CommentForm", new CommentViewModel { PostId = Model.Id})
+</div>

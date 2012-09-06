@@ -1,0 +1,14 @@
+﻿@model TDD.Blog.ViewModel.HomePageViewModel
+
+@{
+    ViewBag.Title = "title";
+}
+
+@foreach (var post in Model.Posts)
+{
+    <div class="post">
+        <p>@Html.ActionLink(@post.Title, "Details", "Post", new { id = @post.Id }, new {}) </p>
+    </div>
+}
+
+<p>Visits: @Model.Visits</p>

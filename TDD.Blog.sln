@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Blog", "TDD.Blog\TDD.Blog.csproj", "{98945BA9-2D54-46D0-8B72-61AE8DFBC249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Blog.Tests", "TDD.Blog.Tests\TDD.Blog.Tests.csproj", "{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Blog.FunctionalTests", "TDD.Blog.FunctionalTests\TDD.Blog.FunctionalTests.csproj", "{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Blog.DbTests", "TDD.Blog.DbTests\TDD.Blog.DbTests.csproj", "{AA4C4591-61C6-4919-A4CC-F60A0588DC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.DbTestHelpers", "TDD.DbTestHelpers\TDD.DbTestHelpers.csproj", "{2A81D3C2-96DC-42A0-940F-10E58C6396CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TeamCity|Any CPU = TeamCity|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98945BA9-2D54-46D0-8B72-61AE8DFBC249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98945BA9-2D54-46D0-8B72-61AE8DFBC249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98945BA9-2D54-46D0-8B72-61AE8DFBC249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98945BA9-2D54-46D0-8B72-61AE8DFBC249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98945BA9-2D54-46D0-8B72-61AE8DFBC249}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{98945BA9-2D54-46D0-8B72-61AE8DFBC249}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+		{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC7AFEC-C01E-4AD8-B5B3-4CE45EF3848F}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{30EAF991-0A19-4EFC-8781-8D5D60F26F0F}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+		{AA4C4591-61C6-4919-A4CC-F60A0588DC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4C4591-61C6-4919-A4CC-F60A0588DC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4C4591-61C6-4919-A4CC-F60A0588DC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4C4591-61C6-4919-A4CC-F60A0588DC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4C4591-61C6-4919-A4CC-F60A0588DC10}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4C4591-61C6-4919-A4CC-F60A0588DC10}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{2A81D3C2-96DC-42A0-940F-10E58C6396CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A81D3C2-96DC-42A0-940F-10E58C6396CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A81D3C2-96DC-42A0-940F-10E58C6396CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A81D3C2-96DC-42A0-940F-10E58C6396CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A81D3C2-96DC-42A0-940F-10E58C6396CE}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{2A81D3C2-96DC-42A0-940F-10E58C6396CE}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

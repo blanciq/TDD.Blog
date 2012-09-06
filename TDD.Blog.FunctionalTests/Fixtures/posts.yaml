@@ -1,0 +1,16 @@
+﻿Posts:
+  PostOne:
+    PostId: 1
+    Title: "My first post from YAML"
+  PostTwo:
+    PostId: 2
+    Title: "Second post! WOW!"
+  PostThree:
+    PostId: 3
+    Title: "Three post already! WOW!"
+  PostFour:
+    PostId: 4
+    Title: "Superb! Fourth post in my blog!"
+  PostFive:
+    PostId: 5
+    Title: "Superb! Fifth post in my blog!"
